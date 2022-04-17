@@ -17,6 +17,10 @@ p {
   font-size: 20px;
 }
 
+nav {
+    
+}
+
 .grid-container {
   display: grid;
   height: 400px;
