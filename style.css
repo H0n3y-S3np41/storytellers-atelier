@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'lovelo black', sans-serif;
+    font-family: 'loveloblack';
     color:#8D5A46;
 }
 
@@ -46,7 +46,7 @@ p {
 
 .nav-item {
     transform: skew(20deg);
-    font-family: 'lovelo black', sans-serif;
+    font-family: 'loveloblack';
 }
 
 form form-inline my-2 my-lg-0 {
