@@ -7,6 +7,10 @@ body {
   height: 100vh
 }
 
+@font-face {
+    src: url("Lovelo Black.otf");
+}
+
 h1 {
   color: #C29483;
   text-align: center;
