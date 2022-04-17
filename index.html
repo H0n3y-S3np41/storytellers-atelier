@@ -10,18 +10,21 @@
       
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
+      <script src="https://kit.fontawesome.com/be7a6b29aa.js" crossorigin="anonymous"></script>
+      
     <link rel="stylesheet" href="style.css">
 
     <title>Storyteller's Atelier</title>
   </head>
   <body>
       <header>
+          
+          <!--
       <ul class="nav">
   <li class="nav-item">
-    <a class="active" href="index.html"><i class="fa-solid fa-house"></i></a> 
+    <a class="nav-link" href="index.html" style="color: white;"><i class="fa-solid fa-house"></i></a> 
   </li>
 <li class="nav-item">
-    <input type="text" placeholder="Search..">
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">About</a>
@@ -36,16 +39,45 @@
     <a class="nav-link" href="#">Request a Demo</a>
   </li>
 </ul>
+    -->
+          
+          <nav class="navbar navbar-expand-lg navbar-dark bg-color">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html"><i class="fa-solid fa-house fa-lg"></i></a>
+      </li>
+        <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+    </form>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Resources</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="faq.html">FAQ</a>
+      </li>
+        
+        <li class="nav-item">
+        <a class="nav-link" href="#">Request a Demo</a>
+      </li>
+    </ul>
+  </div>
+</nav>
       </header>
       
-    <h2>Welcome to</h2>
-      <h1>Storyteller's Atelier</h1>
+    <h2 style="text-align: right; margin-right: 25%; margin-bottom: 50px;">Welcome to</h2>
+      <h1 style="text-align: right; margin-right: 15%; margin-bottom: 95px;">Storyteller's Atelier</h1>
       
       <!--referenced https://www.w3schools.com/css/css_grid_container.asp for grid container -->
       <div class="grid-container">
-          <img src="assets/icon.png" style="width: 300px; margin-left: 50px;" alt="Icon">
+          <img src="assets/icon.png" style="width: 450px; margin-left: 200px;" alt="Icon">
       <div class="card">
   <div class="card-body">
+      <h3>Login to your account</h3>
     <form>
   <div class="form-group">
     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Username or Email">

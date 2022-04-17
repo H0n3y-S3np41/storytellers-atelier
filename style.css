@@ -8,8 +8,14 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #C29483;
   text-align: center;
+  font-family: 'Amsterdam';
+}
+
+h2 {
+    font-family: 'lovelo black', sans-serif;
+    color:#8D5A46;
 }
 
 p {
@@ -17,13 +23,30 @@ p {
   font-size: 20px;
 }
 
-nav {
-    
+.navbar {
+  margin-top: 10px;
+}
+.bg-color {
+  padding: 10px 45px;
+    margin-right: 30%;
+    transform: skew(-21deg);
+    display: block;
+    background-color: #60CFC5;
+    right: 20px;
+}
+
+.nav-item {
+    transform: skew(20deg);
+    font-family: 'lovelo black', sans-serif;
+}
+
+form form-inline my-2 my-lg-0 {
+    transform: skew(21deg);
 }
 
 .grid-container {
   display: grid;
   height: 400px;
-  padding: 10px;
-  grid-template-columns: auto auto;
+  margin: 50px;
+  grid-template-columns: 50% 50%;
 }
