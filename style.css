@@ -59,6 +59,11 @@ font-family: verdana;
     padding: 60px;
 }
 
+.card {
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
 form form-inline my-2 my-lg-0 {
     transform: skew(21deg);
 }
