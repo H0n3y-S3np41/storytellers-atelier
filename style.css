@@ -32,8 +32,14 @@ p {
   font-size: 20px;
 }
 
+h6 {
+font-family: verdana;
+  font-size: 13px;
+    color:#8D5A46;
+}
+
 .navbar {
-  margin-top: 10px;
+    margin-bottom: 60px;
 }
 .bg-color {
   padding: 10px 45px;
@@ -41,12 +47,16 @@ p {
     transform: skew(-21deg);
     display: block;
     background-color: #60CFC5;
-    right: 20px;
+    right: 25px;
 }
 
 .nav-item {
     transform: skew(20deg);
     font-family: 'loveloblack';
+}
+
+.card-body {
+    padding: 60px;
 }
 
 form form-inline my-2 my-lg-0 {
@@ -58,4 +68,20 @@ form form-inline my-2 my-lg-0 {
   height: 400px;
   margin: 50px;
   grid-template-columns: 50% 50%;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 60% 36.5%;
+    margin: 50px 100px 5px;
+    grid-template-rows: 10%;
+    grid-gap: 20px;
+    
+}
+
+.btn-primary {
+    font-family: 'loveloblack';
+    height: 100px;
+    text-align: center;
+    
 }

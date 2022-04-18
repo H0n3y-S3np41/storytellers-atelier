@@ -19,7 +19,7 @@
   <body>
       <header>
           
-          <!--
+          <!-- initial header format before replacement
       <ul class="nav">
   <li class="nav-item">
     <a class="nav-link" href="index.html" style="color: white;"><i class="fa-solid fa-house"></i></a> 
@@ -74,10 +74,10 @@
       
       <!--referenced https://www.w3schools.com/css/css_grid_container.asp for grid container -->
       <div class="grid-container">
-          <img src="assets/icon.png" style="width: 450px; margin-left: 200px;" alt="Icon">
+          <img src="assets/icon.png" style="width: 30%; margin-left: 200px;" alt="Icon">
       <div class="card">
   <div class="card-body">
-      <h3>Login to your account</h3>
+      <h4 style="font-family: 'loveloblack'; margin-bottom: 45px; color: #C29483;">Login to your account</h4>
     <form>
   <div class="form-group">
     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Username or Email">
@@ -85,8 +85,18 @@
   <div class="form-group">
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
-  
-  <button type="submit" class="btn btn-primary">Login</button>
+         <div class="col text-left">
+            <!-- Simple link -->
+            <a href="#!">Forgot your password?</a>
+            </div>
+        
+<!--button document reference: https://getbootstrap.com/docs/5.1/components/buttons/-->
+  <div class="grid-container-2">
+      <div class="space"></div>
+      <h6>Not a member?</h6>
+  <button class="btn btn-primary" type="submit">Login</button>
+<button type="button" class="btn btn-primary" href="#">Sign Up</button>
+</div>
 </form>
   </div>
 </div>
